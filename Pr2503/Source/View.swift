@@ -152,14 +152,12 @@ class View: UIView {
             make.top.equalTo(label.snp.bottom).offset(100)
             make.width.equalTo(label.snp.width)
         }
-        
         activituIndicator.snp.makeConstraints { make in
             make.centerX.equalTo(textField.snp.centerX)
             make.bottom.equalTo(label.snp.top).offset(-65)
             make.height.equalTo(5)
             make.width.equalTo(5)
         }
-    
         lineTop.snp.makeConstraints { make in
             make.left.right.equalToSuperview().inset(10)
             make.top.equalTo(label.snp.top).offset(-40)
@@ -181,8 +179,11 @@ class View: UIView {
             make.width.equalTo(122)
             make.height.equalTo(122)
         }
-
-        
     }
+}
 
+enum ProgressKeyFrames: CGFloat {
+  case start = 140
+  case end = 187
+  case complete = 240
 }

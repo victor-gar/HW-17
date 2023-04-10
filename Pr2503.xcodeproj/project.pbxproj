@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		1649111929E439E300FED118 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1649111829E439E300FED118 /* View.swift */; };
 		1649111C29E43A8900FED118 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1649111B29E43A8900FED118 /* SnapKit */; };
-		1649111E29E43DA200FED118 /* vFKAirport.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1649111D29E43DA200FED118 /* vFKAirport.ttf */; };
 		1649112029E446B300FED118 /* digital-7 (mono).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1649111F29E446B300FED118 /* digital-7 (mono).ttf */; };
 		1649112329E44FD900FED118 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 1649112229E44FD900FED118 /* Lottie */; };
 		1649112729E4560F00FED118 /* 5digital.json in Resources */ = {isa = PBXBuildFile; fileRef = 1649112629E4560F00FED118 /* 5digital.json */; };
+		1649112B29E46A9900FED118 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 1649112A29E46A9900FED118 /* Readme.md */; };
+		1649112D29E46B3B00FED118 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 1649112C29E46B3B00FED118 /* image.png */; };
 		264DFEDE260D07EF0035EA15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264DFEDD260D07EF0035EA15 /* AppDelegate.swift */; };
 		264DFEE0260D07EF0035EA15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264DFEDF260D07EF0035EA15 /* SceneDelegate.swift */; };
 		264DFEE2260D07EF0035EA15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264DFEE1260D07EF0035EA15 /* ViewController.swift */; };
@@ -22,9 +23,10 @@
 
 /* Begin PBXFileReference section */
 		1649111829E439E300FED118 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		1649111D29E43DA200FED118 /* vFKAirport.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = vFKAirport.ttf; sourceTree = "<group>"; };
 		1649111F29E446B300FED118 /* digital-7 (mono).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (mono).ttf"; sourceTree = "<group>"; };
 		1649112629E4560F00FED118 /* 5digital.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5digital.json; sourceTree = "<group>"; };
+		1649112A29E46A9900FED118 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		1649112C29E46B3B00FED118 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 		264DFEDA260D07EF0035EA15 /* Pr2503.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pr2503.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		264DFEDD260D07EF0035EA15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		264DFEDF260D07EF0035EA15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,11 +52,13 @@
 		1649111529E4386000FED118 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				1649112A29E46A9900FED118 /* Readme.md */,
+				1649112629E4560F00FED118 /* 5digital.json */,
 				1649111F29E446B300FED118 /* digital-7 (mono).ttf */,
-				1649111D29E43DA200FED118 /* vFKAirport.ttf */,
 				264DFEE6260D07F00035EA15 /* Assets.xcassets */,
 				264DFEE8260D07F00035EA15 /* LaunchScreen.storyboard */,
 				264DFEEB260D07F00035EA15 /* Info.plist */,
+				1649112C29E46B3B00FED118 /* image.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -97,7 +101,6 @@
 		264DFEDC260D07EF0035EA15 /* Pr2503 */ = {
 			isa = PBXGroup;
 			children = (
-				1649112629E4560F00FED118 /* 5digital.json */,
 				1649111529E4386000FED118 /* Resource */,
 				1649111629E4386B00FED118 /* Source */,
 			);
@@ -169,10 +172,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1649112B29E46A9900FED118 /* Readme.md in Resources */,
 				1649112029E446B300FED118 /* digital-7 (mono).ttf in Resources */,
+				1649112D29E46B3B00FED118 /* image.png in Resources */,
 				264DFEEA260D07F00035EA15 /* LaunchScreen.storyboard in Resources */,
 				1649112729E4560F00FED118 /* 5digital.json in Resources */,
-				1649111E29E43DA200FED118 /* vFKAirport.ttf in Resources */,
 				264DFEE7260D07F00035EA15 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
