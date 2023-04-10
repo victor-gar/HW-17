@@ -3,24 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1649111929E439E300FED118 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1649111829E439E300FED118 /* View.swift */; };
+		1649111C29E43A8900FED118 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1649111B29E43A8900FED118 /* SnapKit */; };
+		1649112029E446B300FED118 /* digital-7 (mono).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1649111F29E446B300FED118 /* digital-7 (mono).ttf */; };
+		1649112329E44FD900FED118 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 1649112229E44FD900FED118 /* Lottie */; };
+		1649112729E4560F00FED118 /* 5digital.json in Resources */ = {isa = PBXBuildFile; fileRef = 1649112629E4560F00FED118 /* 5digital.json */; };
+		1649112B29E46A9900FED118 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 1649112A29E46A9900FED118 /* Readme.md */; };
+		1649112D29E46B3B00FED118 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 1649112C29E46B3B00FED118 /* image.png */; };
 		264DFEDE260D07EF0035EA15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264DFEDD260D07EF0035EA15 /* AppDelegate.swift */; };
 		264DFEE0260D07EF0035EA15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264DFEDF260D07EF0035EA15 /* SceneDelegate.swift */; };
 		264DFEE2260D07EF0035EA15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264DFEE1260D07EF0035EA15 /* ViewController.swift */; };
-		264DFEE5260D07EF0035EA15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264DFEE3260D07EF0035EA15 /* Main.storyboard */; };
 		264DFEE7260D07F00035EA15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264DFEE6260D07F00035EA15 /* Assets.xcassets */; };
 		264DFEEA260D07F00035EA15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264DFEE8260D07F00035EA15 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1649111829E439E300FED118 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		1649111F29E446B300FED118 /* digital-7 (mono).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (mono).ttf"; sourceTree = "<group>"; };
+		1649112629E4560F00FED118 /* 5digital.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5digital.json; sourceTree = "<group>"; };
+		1649112A29E46A9900FED118 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		1649112C29E46B3B00FED118 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 		264DFEDA260D07EF0035EA15 /* Pr2503.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pr2503.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		264DFEDD260D07EF0035EA15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		264DFEDF260D07EF0035EA15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		264DFEE1260D07EF0035EA15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		264DFEE4260D07EF0035EA15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		264DFEE6260D07F00035EA15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		264DFEE9260D07F00035EA15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		264DFEEB260D07F00035EA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,15 +41,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1649111C29E43A8900FED118 /* SnapKit in Frameworks */,
+				1649112329E44FD900FED118 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1649111529E4386000FED118 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1649112629E4560F00FED118 /* 5digital.json */,
+				1649111F29E446B300FED118 /* digital-7 (mono).ttf */,
+				264DFEE6260D07F00035EA15 /* Assets.xcassets */,
+				264DFEE8260D07F00035EA15 /* LaunchScreen.storyboard */,
+				264DFEEB260D07F00035EA15 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		1649111629E4386B00FED118 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1649111729E4387400FED118 /* App */,
+				264DFEE1260D07EF0035EA15 /* ViewController.swift */,
+				1649111829E439E300FED118 /* View.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1649111729E4387400FED118 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				264DFEDD260D07EF0035EA15 /* AppDelegate.swift */,
+				264DFEDF260D07EF0035EA15 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		264DFED1260D07EF0035EA15 = {
 			isa = PBXGroup;
 			children = (
+				1649112A29E46A9900FED118 /* Readme.md */,
+				1649112C29E46B3B00FED118 /* image.png */,
 				264DFEDC260D07EF0035EA15 /* Pr2503 */,
 				264DFEDB260D07EF0035EA15 /* Products */,
 			);
@@ -56,13 +101,8 @@
 		264DFEDC260D07EF0035EA15 /* Pr2503 */ = {
 			isa = PBXGroup;
 			children = (
-				264DFEDD260D07EF0035EA15 /* AppDelegate.swift */,
-				264DFEDF260D07EF0035EA15 /* SceneDelegate.swift */,
-				264DFEE1260D07EF0035EA15 /* ViewController.swift */,
-				264DFEE3260D07EF0035EA15 /* Main.storyboard */,
-				264DFEE6260D07F00035EA15 /* Assets.xcassets */,
-				264DFEE8260D07F00035EA15 /* LaunchScreen.storyboard */,
-				264DFEEB260D07F00035EA15 /* Info.plist */,
+				1649111529E4386000FED118 /* Resource */,
+				1649111629E4386B00FED118 /* Source */,
 			);
 			path = Pr2503;
 			sourceTree = "<group>";
@@ -83,6 +123,10 @@
 			dependencies = (
 			);
 			name = Pr2503;
+			packageProductDependencies = (
+				1649111B29E43A8900FED118 /* SnapKit */,
+				1649112229E44FD900FED118 /* Lottie */,
+			);
 			productName = Pr2503;
 			productReference = 264DFEDA260D07EF0035EA15 /* Pr2503.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +154,10 @@
 				Base,
 			);
 			mainGroup = 264DFED1260D07EF0035EA15;
+			packageReferences = (
+				1649111A29E43A8900FED118 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				1649112129E44FD900FED118 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 264DFEDB260D07EF0035EA15 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -124,9 +172,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1649112B29E46A9900FED118 /* Readme.md in Resources */,
+				1649112029E446B300FED118 /* digital-7 (mono).ttf in Resources */,
+				1649112D29E46B3B00FED118 /* image.png in Resources */,
 				264DFEEA260D07F00035EA15 /* LaunchScreen.storyboard in Resources */,
+				1649112729E4560F00FED118 /* 5digital.json in Resources */,
 				264DFEE7260D07F00035EA15 /* Assets.xcassets in Resources */,
-				264DFEE5260D07EF0035EA15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1649111929E439E300FED118 /* View.swift in Sources */,
 				264DFEE2260D07EF0035EA15 /* ViewController.swift in Sources */,
 				264DFEDE260D07EF0035EA15 /* AppDelegate.swift in Sources */,
 				264DFEE0260D07EF0035EA15 /* SceneDelegate.swift in Sources */,
@@ -146,14 +198,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		264DFEE3260D07EF0035EA15 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				264DFEE4260D07EF0035EA15 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		264DFEE8260D07F00035EA15 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,7 +332,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CC9X6PH2C6;
-				INFOPLIST_FILE = Pr2503/Info.plist;
+				INFOPLIST_FILE = Pr2503/Resource/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +351,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CC9X6PH2C6;
-				INFOPLIST_FILE = Pr2503/Info.plist;
+				INFOPLIST_FILE = Pr2503/Resource/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +385,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1649111A29E43A8900FED118 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		1649112129E44FD900FED118 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1649111B29E43A8900FED118 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1649111A29E43A8900FED118 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		1649112229E44FD900FED118 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1649112129E44FD900FED118 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 264DFED2260D07EF0035EA15 /* Project object */;
 }
