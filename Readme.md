@@ -1,6 +1,6 @@
 # HW - 17 BruteForceTask - Swift UIKit
 
-![Alt text](./Resource/image.png "BruteForceTask")
+![Alt text](./image.png "BruteForceTask")
 
 ## Features
 - Lottie
