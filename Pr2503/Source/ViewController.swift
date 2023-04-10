@@ -1,6 +1,23 @@
 import UIKit
+import Lottie
+
+enum ProgressKeyFrames: CGFloat {
+
+  case start = 140
+  
+  case end = 187
+  
+  case complete = 240
+  
+}
 
 class ViewController: UIViewController {
+    
+
+    private lazy var myView: View = {
+        View()
+    }()
+    
     @IBOutlet weak var button: UIButton!
     
     var isBlack: Bool = false {
@@ -17,14 +34,22 @@ class ViewController: UIViewController {
         isBlack.toggle()
     }
     
+    override func loadView() {
+        view = myView
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        self.bruteForce(passwordToUnlock: "1!gr")
+//        lottie()
+//        startProgress()
+//
+//        self.bruteForce(passwordToUnlock: "1!gr")
         
         // Do any additional setup after loading the view.
     }
+    
+    
     
     func bruteForce(passwordToUnlock: String) {
         let ALLOWED_CHARACTERS:   [String] = String().printable.map { String($0) }
