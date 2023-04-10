@@ -83,6 +83,8 @@
 		264DFED1260D07EF0035EA15 = {
 			isa = PBXGroup;
 			children = (
+				1649112A29E46A9900FED118 /* Readme.md */,
+				1649112C29E46B3B00FED118 /* image.png */,
 				264DFEDC260D07EF0035EA15 /* Pr2503 */,
 				264DFEDB260D07EF0035EA15 /* Products */,
 			);
@@ -99,8 +101,6 @@
 		264DFEDC260D07EF0035EA15 /* Pr2503 */ = {
 			isa = PBXGroup;
 			children = (
-				1649112A29E46A9900FED118 /* Readme.md */,
-				1649112C29E46B3B00FED118 /* image.png */,
 				1649111529E4386000FED118 /* Resource */,
 				1649111629E4386B00FED118 /* Source */,
 			);
