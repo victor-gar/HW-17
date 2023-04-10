@@ -52,13 +52,11 @@
 		1649111529E4386000FED118 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				1649112A29E46A9900FED118 /* Readme.md */,
 				1649112629E4560F00FED118 /* 5digital.json */,
 				1649111F29E446B300FED118 /* digital-7 (mono).ttf */,
 				264DFEE6260D07F00035EA15 /* Assets.xcassets */,
 				264DFEE8260D07F00035EA15 /* LaunchScreen.storyboard */,
 				264DFEEB260D07F00035EA15 /* Info.plist */,
-				1649112C29E46B3B00FED118 /* image.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -101,6 +99,8 @@
 		264DFEDC260D07EF0035EA15 /* Pr2503 */ = {
 			isa = PBXGroup;
 			children = (
+				1649112A29E46A9900FED118 /* Readme.md */,
+				1649112C29E46B3B00FED118 /* image.png */,
 				1649111529E4386000FED118 /* Resource */,
 				1649111629E4386B00FED118 /* Source */,
 			);
